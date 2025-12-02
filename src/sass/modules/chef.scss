@@ -1,0 +1,10 @@
+.chef{
+    @include mydisplay(flex,column,center,center) ;
+     h1 span {
+       
+        @include myspan(orange ,wheat,20px,20px,10px,10px) ;
+      }
+      span{
+        color: orange;
+      }
+}

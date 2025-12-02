@@ -394,10 +394,27 @@ button {
   padding-left: 70px;
   padding-right: 70px;
   margin-top: 70px;
-  margin-bottom: 70px;
   display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.chef {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chef h1 span, .chef .h1 span {
+  color: orange;
+  background-color: wheat;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.chef span {
+  color: orange;
 }
 
 /*!
