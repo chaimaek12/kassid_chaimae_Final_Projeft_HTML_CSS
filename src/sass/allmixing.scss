@@ -1,0 +1,18 @@
+@mixin mydisplay($param1,$param2,$param3,$param4)  {
+  display: $param1 ;
+ flex-direction:  $param2;
+ justify-content:  $param3;
+align-items:  $param4;
+
+
+}
+@mixin myspan($param1,$param2,$param3,$param4 ,$param5,$param6)  {
+        color: $param1 ;
+        background-color: $param2;
+        border-radius: $param3;
+        font-size: $param4;
+        padding-left: $param5;
+        padding-right: $param6;
+
+
+}

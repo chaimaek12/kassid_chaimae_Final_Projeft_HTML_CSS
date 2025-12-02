@@ -1,15 +1,17 @@
 .whyus{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    @include mydisplay(flex,column,center,center) ;
      h1 span {
-        color: orange;
-        background-color: wheat;
-        border-radius: 20px;
-        font-size: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        // color: orange;
+        // background-color: wheat;
+        // border-radius: 20px;
+        // font-size: 20px;
+        // padding-left: 10px;
+        // padding-right: 10px;
+        @include myspan(orange ,wheat,20px,20px,10px,10px) ;
       }
       span{
         color: orange;

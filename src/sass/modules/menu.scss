@@ -1,0 +1,20 @@
+.menu{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;}
+    @include mydisplay(flex,column,center,center) ;
+      margin-top: 100px;
+      h1 span{
+        @include myspan(orange ,wheat,20px,20px,10px,10px) ;
+      }
+      span{
+        color: orange;
+      }
+      a{
+        text-decoration: none;
+        color: grey;
+        padding: 20px;
+      }
+
+}
