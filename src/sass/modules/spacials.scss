@@ -7,4 +7,23 @@
       span{
         color: orange;
       }
+      
 }
+.allo{
+        display: grid;
+    grid-template-columns: 1fr  2fr  1fr;
+   gap:60px ;
+   margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     .left{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+         h4:hover{
+          color: orange;
+         }
+      }
+      
+    }
