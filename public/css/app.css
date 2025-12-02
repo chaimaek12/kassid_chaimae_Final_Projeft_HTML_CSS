@@ -293,7 +293,10 @@ body {
 
 .carousel-contenu {
   display: flex;
-  height: 450px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .carousel-left, .carousel-right {
@@ -311,6 +314,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
+}
+
+#carouselExampleAutoplaying {
+  background-image: url("../../../images/testimonials-bg.jpg");
+  background-size: cover;
 }
 
 /*!
