@@ -322,6 +322,59 @@ body {
   background-size: cover;
 }
 
+.book-a-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-a-table h1 span, .book-a-table .h1 span {
+  color: orange;
+  background-color: wheat;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.book-a-table span {
+  color: orange;
+}
+
+.le-tous {
+  width: 99vw;
+  height: 100vh;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+}
+.le-tous .left {
+  width: 40%;
+  height: 100%;
+  padding: 20px 20px 40px 40px;
+}
+.le-tous .right {
+  width: 60%;
+  height: 100%;
+  padding: 20px 20px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+button {
+  padding: 10px;
+  padding-inline: 30px;
+  border-radius: 20px;
+  border-color: orange;
+  color: white;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors

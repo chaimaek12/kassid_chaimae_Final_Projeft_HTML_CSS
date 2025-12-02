@@ -1,0 +1,49 @@
+.book-a-table{
+    @include mydisplay(flex,column,center,center) ;
+     h1 span {
+       
+        @include myspan(orange ,wheat,20px,20px,10px,10px) ;
+      }
+      span{
+        color: orange;
+      }
+}
+
+.le-tous{
+    width: 99vw;
+    height: 100vh;
+   padding-left: 70px;
+   padding-right: 70px;
+   margin-top:70px ;
+   margin-bottom:70px ;
+    display: flex;
+   
+    .left{
+        width: 40%;
+        height: 100%;
+        
+        padding: 20px 20px 40px 40px;
+    }
+    .right{
+        width: 60%;
+        height: 100%;
+        padding: 20px 20px 40px 40px;
+        display: flex;
+        flex-direction: column;
+       gap: 40px ;
+       
+    }
+}
+button{
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    border-color: orange;
+    color: white;
+    background-color:orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+}
+
+
