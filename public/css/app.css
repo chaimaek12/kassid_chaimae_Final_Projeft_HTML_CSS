@@ -132,6 +132,38 @@ body {
   color: orange;
 }
 
+.whyus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whyus h1 span, .whyus .h1 span {
+  color: orange;
+  background-color: wheat;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.whyus span {
+  color: orange;
+}
+.whyus .cards {
+  display: flex;
+  gap: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 40px;
+}
+.whyus .cards .card {
+  padding-inline: 20px;
+  background-color: rgb(236, 234, 234);
+}
+.whyus .cards .card h1, .whyus .cards .card .h1 {
+  color: orange;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
