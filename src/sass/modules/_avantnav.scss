@@ -11,7 +11,8 @@ body{
    
     display: flex;
     justify-content: space-around;
-     align-items: center;
+    align-items: center;
+     gap:40px ;
      color: white;
     
     .left{
@@ -40,6 +41,9 @@ body{
          color: white;
 
       
+    }
+    .right button:hover{
+        opacity: 0,8;
     }
 
 }

@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 40px;
   color: white;
 }
 .avantnav .left {
@@ -39,19 +40,33 @@ body {
   padding-bottom: 5px;
   color: white;
 }
+.avantnav .right button:hover {
+  opacity: 0, 8;
+}
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .navbar a {
   text-decoration: none;
   color: white;
 }
+.navbar .right a:hover {
+  color: orange;
+}
+.navbar #drop:hover {
+  color: orange;
+}
 .navbar .right {
   display: flex;
   gap: 20px;
+}
+.navbar #drop {
+  background-color: transparent;
+  color: white;
+  border: none;
 }
 
 .autop {
@@ -69,6 +84,7 @@ body {
   width: 100px;
   height: 717px;
   object-fit: cover;
+  opacity: 0, 9;
 }
 
 .section-div-paragrapgh {
@@ -107,6 +123,10 @@ body {
   border-color: orange;
   color: white;
   background-color: transparent;
+}
+
+.button button:hover {
+  background-color: orange;
 }
 
 .about {
@@ -163,6 +183,10 @@ body {
 .whyus .cards .card h1, .whyus .cards .card .h1 {
   color: orange;
 }
+.whyus .card:hover {
+  background-color: orange;
+  color: white;
+}
 
 .menu {
   display: flex;
@@ -186,6 +210,34 @@ body {
   text-decoration: none;
   color: grey;
   padding: 20px;
+}
+.menu .choix {
+  width: 99vw;
+  height: 100vh;
+  gap: 30px;
+  padding-left: 80px;
+  padding-right: 68px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+.menu .choix .left {
+  width: 50%;
+  height: 100%;
+}
+.menu .choix .left div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .choix .left div .acote {
+  display: flex;
+  flex-direction: column;
+}
+.menu .choix .right {
+  width: 50%;
+  height: 100%;
+  background-color: red;
 }
 
 /*!

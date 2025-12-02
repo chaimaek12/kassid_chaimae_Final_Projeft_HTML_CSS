@@ -16,5 +16,35 @@
         color: grey;
         padding: 20px;
       }
+   .choix{
+    width: 99vw;
+    height: 100vh;
+    gap: 30px;
+    padding-left:80px ;
+    padding-right: 68px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+      .left{
+        width: 50%;
+        height: 100%;
+        // background-color: black;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              .acote{
+                display: flex;
+                flex-direction: column;
+                
+              }
+        }
+      }
+      .right{  
+        width: 50%;
+        height: 100%;
+        background-color: red;
+    }
 
+   }
 }
