@@ -1,0 +1,22 @@
+.gallery{
+    @include mydisplay(flex,column,center,center) ;
+     h1 span {
+       
+        @include myspan(orange ,wheat,20px,20px,10px,10px) ;
+      }
+      span{
+        color: orange;
+      }
+}
+.photos{
+    width: 99vw;
+    height: 100vh;
+   padding-left: 70px;
+   padding-right: 70px;
+   margin-top:70px ;
+   margin-bottom:70px ;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr  1fr;
+    
+}

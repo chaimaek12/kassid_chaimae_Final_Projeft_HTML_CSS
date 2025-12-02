@@ -341,12 +341,9 @@ body {
 }
 
 .le-tous {
-  width: 99vw;
-  height: 100vh;
   padding-left: 70px;
   padding-right: 70px;
   margin-top: 70px;
-  margin-bottom: 70px;
   display: flex;
 }
 .le-tous .left {
@@ -355,8 +352,6 @@ body {
   padding: 20px 20px 40px 40px;
 }
 .le-tous .right {
-  width: 60%;
-  height: 100%;
   padding: 20px 20px 40px 40px;
   display: flex;
   flex-direction: column;
@@ -373,6 +368,36 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery h1 span, .gallery .h1 span {
+  color: orange;
+  background-color: wheat;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.gallery span {
+  color: orange;
+}
+
+.photos {
+  width: 99vw;
+  height: 100vh;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 /*!
