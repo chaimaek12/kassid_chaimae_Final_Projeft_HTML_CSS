@@ -28,4 +28,17 @@
   color: white;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar .right {
+  display: flex;
+  gap: 20px;
+}
+
 /*# sourceMappingURL=app.css.map */

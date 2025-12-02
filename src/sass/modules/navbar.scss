@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
+    .right{
+        display: flex;
+        gap: 20px;
+    }
+
+}
