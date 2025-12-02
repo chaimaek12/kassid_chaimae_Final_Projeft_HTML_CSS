@@ -1,13 +1,27 @@
+
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+   
+   
     a{
         text-decoration: none;
+        color: white;
     }
     .right{
         display: flex;
         gap: 20px;
     }
 
+}
+.autop{
+     height: 10vh;
+    position:fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #3c3c3c;
+    opacity: 1;
+    z-index: 99;
+    
 }
