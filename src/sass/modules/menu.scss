@@ -4,7 +4,7 @@
     // justify-content: center;
     // align-items: center;}
     @include mydisplay(flex,column,center,center) ;
-      margin-top: 100px;
+    
       h1 span{
         @include myspan(orange ,wheat,20px,20px,10px,10px) ;
       }
@@ -16,35 +16,110 @@
         color: grey;
         padding: 20px;
       }
-   .choix{
-    width: 99vw;
-    height: 100vh;
-    gap: 30px;
-    padding-left:80px ;
-    padding-right: 68px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    display: flex;
-      .left{
-        width: 50%;
-        height: 100%;
-        // background-color: black;
-        div{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-              .acote{
-                display: flex;
-                flex-direction: column;
-                
-              }
-        }
-      }
-      .right{  
-        width: 50%;
-        height: 100%;
-        background-color: red;
     }
+//    .choix{
+//     width: 90vw;
+//     height: 100vh;
+//     gap: 10px;
+//     padding-top: 60px;
+//     display: flex;
+//       .left{
+//         width: 50%;
+//         height: 100%;
+//         // background-color: black;
+//         div{
+//             display: flex;
+//             // background-color: aqua;
+//             gap:20px;
+//             padding-bottom: 50px;
+            
+           
+//         }
+//         .tt{
+//         display: flex;
+//         gap: 400px;
+        
+//         }
+//         .acote{
+//             display: flex;
+//             flex-direction: column;
+//             // background-color: pink;
+//             gap:30px;
+           
+//         }
+//     }
+       
+//       }
+//       .right{  
+//         width: 50%;
+//         height: 100%;
+//         background-color: red;
+//         div{
+//            display: flex;
+//            justify-content: center;
+//            gap: 10px;
+//            padding-bottom: 30px;
+           
+//             img{
+//                 border-radius: 50%;
+//             }
+//             .acote{
+//                 display: flex;
+//                 flex-direction: column;
 
-   }
+//              }
+//         }
+
+// }
+// }
+      
+
+   
+
+.montexte{
+   
+    position: relative;
+    display: inline-block;
+    padding-right: 5px; /* espace pour les pointillés */
+}
+
+.montexte::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 230px;                /* longueur des pointillés */
+    border-bottom: 2px dotted #333;
+    // transform: translateY(-50%);
+}
+
+
+.leschoix{
+    display: grid;
+    grid-template-columns: 1fr  1fr ;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    gap:3px ;
+    
+
+}
+
+.menu-style{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.menu-style img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.menu-price{
+    display: flex;
+  justify-content: space-between;
+    
 }
