@@ -273,7 +273,7 @@ body {
   color: orange;
 }
 
-.allo {
+.troisdiv {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 60px;
@@ -282,13 +282,35 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.allo .left {
+.troisdiv .left {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.allo .left h4:hover, .allo .left .h4:hover {
+.troisdiv .left h4:hover, .troisdiv .left .h4:hover {
   color: orange;
+}
+
+.carousel-contenu {
+  display: flex;
+  height: 450px;
+}
+
+.carousel-left, .carousel-right {
+  width: 50%;
+}
+
+.carousel-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-right {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*!
