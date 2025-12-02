@@ -1,0 +1,35 @@
+.avantnav{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // color: white;
+    .left{
+         
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+        .informations{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        i{
+            color: orange;
+        }
+    }
+    .right button{
+         background-color: orange;
+         border: none;
+         border-radius: 20px;
+         padding-inline: 40px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         color: white;
+
+      
+    }
+
+}

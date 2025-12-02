@@ -1,0 +1,31 @@
+.avantnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.avantnav .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.avantnav .left .informations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.avantnav .left i {
+  color: orange;
+}
+.avantnav .right button {
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  padding-inline: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+/*# sourceMappingURL=app.css.map */
