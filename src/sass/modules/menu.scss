@@ -16,85 +16,20 @@
         color: grey;
         padding: 20px;
       }
-    }
-//    .choix{
-//     width: 90vw;
-//     height: 100vh;
-//     gap: 10px;
-//     padding-top: 60px;
-//     display: flex;
-//       .left{
-//         width: 50%;
-//         height: 100%;
-//         // background-color: black;
-//         div{
-//             display: flex;
-//             // background-color: aqua;
-//             gap:20px;
-//             padding-bottom: 50px;
-            
-           
-//         }
-//         .tt{
-//         display: flex;
-//         gap: 400px;
-        
-//         }
-//         .acote{
-//             display: flex;
-//             flex-direction: column;
-//             // background-color: pink;
-//             gap:30px;
-           
-//         }
-//     }
-       
-//       }
-//       .right{  
-//         width: 50%;
-//         height: 100%;
-//         background-color: red;
-//         div{
-//            display: flex;
-//            justify-content: center;
-//            gap: 10px;
-//            padding-bottom: 30px;
-           
-//             img{
-//                 border-radius: 50%;
-//             }
-//             .acote{
-//                 display: flex;
-//                 flex-direction: column;
+      input{
+  display: none;
+}
+ 
 
-//              }
-//         }
-
-// }
-// }
-      
-
-   
-
-.montexte{
-   
-    position: relative;
-    display: inline-block;
-    padding-right: 5px; /* espace pour les pointillés */
+#mot1:checked ~ .leschoix{
+  opacity: 1;
+}
+#mot2:checked ~  #imane{
+  display: grid;
 }
 
-.montexte::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    width: 230px;                /* longueur des pointillés */
-    border-bottom: 2px dotted #333;
-    // transform: translateY(-50%);
-}
-
-
-.leschoix{
+      .leschoix{
+    opacity: 0;
     display: grid;
     grid-template-columns: 1fr  1fr ;
     margin-left: 100px;
@@ -102,11 +37,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
    
-    gap:3px ;
+    gap: 30px ;
     
-
-}
-
 .menu-style{
     display: flex;
     align-items: flex-start;
@@ -121,5 +53,39 @@
 .menu-price{
     display: flex;
   justify-content: space-between;
+  gap:50px ;
     
 }
+.price{
+  color: orange;
+}
+
+
+
+
+}
+    }
+
+.montexte{
+   
+    position: relative;
+    display: inline-block;
+    padding-right: 5px; /* espace pour les pointillés */
+}
+
+.montexte::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 280px;                /* longueur des pointillés */
+    border-bottom: 2px dotted #333;
+    // transform: translateY(-50%);
+}
+
+
+
+
+
+
+ 

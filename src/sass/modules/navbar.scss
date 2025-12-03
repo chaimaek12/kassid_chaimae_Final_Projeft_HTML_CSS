@@ -1,14 +1,19 @@
 
-.navbar{
-    
-   display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-   
-    a{
+
+.NV{
+  
+ padding-inline: 50px ;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+
+
+
+      a{
         text-decoration: none;
-        color: white;
+       
+        color:white;
     }
      .right a:hover{
         color:orange
@@ -22,18 +27,18 @@
     }
     #drop{
         background-color:transparent;
-        color: white;
+        color:white;
         border: none;
     }
 
 }
-.autop{
-     height: 10vh;
-    position:fixed;
-    top: 0%;
-    width: 100%;
-    background-color: #3c3c3c;
-    opacity: 1;
-    z-index: 99;
+ .autop{
+height: 10vh;
+ position:fixed;
+ top: 0%;
+ width: 100%;
+ background-color: #3c3c3c;
+ opacity: 1;
+z-index: 99;
     
 }

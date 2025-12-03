@@ -1,16 +1,10 @@
-// .carousel-item{
-//     display: flex;
-//     flex-direction: row;
-//     background-color: aqua;
-//     h5{
-//         color: black;
-//     }
-// }
-.events{ 
 
-
-.carousel-contenu{
+.avis{
+    .carousel-contenu{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     // height: 450px;
     padding-right: 100px;
     padding-left: 100px;
@@ -18,11 +12,12 @@
     padding-bottom: 100px;
 }
 .carousel-left ,.carousel-right{
-    width: 50%;
+    width: 10%;
 }
 .carousel-left img{
-width: 100%;
-height: 100%;
+width: 10%;
+height: 10%;
+border-radius: 50%;
 object-fit: cover;
 }
 .carousel-right{

@@ -21,9 +21,17 @@
      display: flex;
      flex-direction: column;
      gap: 10px;
+      
          h4:hover{
           color: orange;
          }
       }
+      .lwest{display: none;
+        
+      }
       
     }
+    #chamy:checked ~ .lwest{
+  display: block;
+    } 
+
