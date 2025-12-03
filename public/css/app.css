@@ -498,6 +498,15 @@ button {
   background-color: aliceblue;
 }
 
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
