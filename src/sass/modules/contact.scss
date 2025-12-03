@@ -1,0 +1,19 @@
+.contact{
+      @include mydisplay(flex,column,center,center) ;
+    margin-top: 100px;
+      h1 span{
+         @include myspan(orange ,wheat,20px,20px,10px,10px) ;
+      }
+      span{
+        color: orange;
+      }
+
+      iframe {
+            width: 100%;
+            height: 60vh;
+            border: none;
+      }
+      .left{
+        background-color: aliceblue;
+      }
+}
