@@ -1,8 +1,5 @@
 .menu{
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;}
+
     @include mydisplay(flex,column,center,center) ;
     
       h1 span{
@@ -16,20 +13,14 @@
         color: grey;
         padding: 20px;
       }
-      input{
-  display: none;
+    
 }
  
 
-#mot1:checked ~ .leschoix{
-  opacity: 1;
-}
-#mot2:checked ~  #imane{
-  display: grid;
-}
+
 
       .leschoix{
-    opacity: 0;
+  
     display: grid;
     grid-template-columns: 1fr  1fr ;
     margin-left: 100px;
@@ -38,7 +29,7 @@
     padding-bottom: 50px;
    
     gap: 30px ;
-    
+   
 .menu-style{
     display: flex;
     align-items: flex-start;
@@ -63,8 +54,8 @@
 
 
 
-}
-    }
+
+     }
 
 .montexte{
    
@@ -78,10 +69,39 @@
     position: absolute;
     top: 50%;
     left: 100%;
-    width: 280px;                /* longueur des pointillés */
+    width: 300px;                /* longueur des pointillés */
     border-bottom: 2px dotted #333;
     // transform: translateY(-50%);
 }
+
+
+.leschoix .menu-style{
+  display: none;
+}
+
+#mot1:checked ~ .leschoix .menu-style{
+  display: block;
+}
+#mot2:checked ~ .leschoix .starter{
+  display: block;
+}
+#mot3:checked ~ .leschoix .salade{
+  display: block;
+}
+#mot4:checked ~ .leschoix .specialty{
+  display: block;
+}
+
+
+.fff{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  input{display: none;}
+}
+
 
 
 

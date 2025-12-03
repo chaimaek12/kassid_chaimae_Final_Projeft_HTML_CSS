@@ -1,19 +1,15 @@
-.chef{
-    @include mydisplay(flex,column,center,center) ;
-     h1 span {
+// .chef{
+//     // @include mydisplay(none,none,none,none) ;
+//     // padding-bottom: 100px;
+//      h1 span {
        
-        @include myspan(orange ,wheat,20px,20px,10px,10px) ;
-      }
-      span{
-        color: orange;
-      }
-}
-
-// .cards{
-//   background-color: wheat;
-// position: fixed;
-
-
-// .img1{
-//   position:relative;
+//       //   @include myspan(none ,none,20px,20px,10px,10px) ;
+//       // }
+//       // span{
+//       //   color: orange;
+//       // }
+//       // .bootstrap{
+//       //   display: flex;
+//       // }
 // }
+

@@ -220,17 +220,8 @@ body {
   color: grey;
   padding: 20px;
 }
-.menu input {
-  display: none;
-}
-.menu #mot1:checked ~ .leschoix {
-  opacity: 1;
-}
-.menu #mot2:checked ~ #imane {
-  display: grid;
-}
-.menu .leschoix {
-  opacity: 0;
+
+.leschoix {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 100px;
@@ -239,23 +230,23 @@ body {
   padding-bottom: 50px;
   gap: 30px;
 }
-.menu .leschoix .menu-style {
+.leschoix .menu-style {
   display: flex;
   align-items: flex-start;
   gap: 15px;
 }
-.menu .leschoix .menu-style img {
+.leschoix .menu-style img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
 }
-.menu .leschoix .menu-price {
+.leschoix .menu-price {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
-.menu .leschoix .price {
+.leschoix .price {
   color: orange;
 }
 
@@ -270,8 +261,39 @@ body {
   position: absolute;
   top: 50%;
   left: 100%;
-  width: 280px; /* longueur des pointillés */
+  width: 300px; /* longueur des pointillés */
   border-bottom: 2px dotted #333;
+}
+
+.leschoix .menu-style {
+  display: none;
+}
+
+#mot1:checked ~ .leschoix .menu-style {
+  display: block;
+}
+
+#mot2:checked ~ .leschoix .starter {
+  display: block;
+}
+
+#mot3:checked ~ .leschoix .salade {
+  display: block;
+}
+
+#mot4:checked ~ .leschoix .specialty {
+  display: block;
+}
+
+.fff {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.fff input {
+  display: none;
 }
 
 .spacials {
@@ -309,13 +331,6 @@ body {
 }
 .troisdiv .left h4:hover, .troisdiv .left .h4:hover {
   color: orange;
-}
-.troisdiv .lwest {
-  display: none;
-}
-
-#chamy:checked ~ .lwest {
-  display: block;
 }
 
 .events .carousel-contenu {
@@ -422,24 +437,6 @@ button {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.chef {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.chef h1 span, .chef .h1 span {
-  color: orange;
-  background-color: wheat;
-  border-radius: 20px;
-  font-size: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.chef span {
-  color: orange;
-}
-
 .avis .carousel-contenu {
   display: flex;
   flex-direction: column;
@@ -505,6 +502,14 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.finalfooter {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+  display: flex;
+  justify-content: center;
 }
 
 /*!
