@@ -57,9 +57,14 @@ This project is web site
 ## Installation
 1. Clone the repository: `git clone https://github.com/username/project.git`
 2. install Bootstrap
+3. ouvrir le fichier index.html dans votre navigateur
 
 
 
+ #technologies : 
+ html 
+ css
+ bootstrap 
 
 
 
@@ -70,3 +75,5 @@ mixin and Custom Parameters
 
 
 screen __ > public/photos
+    
+respo: tablette :594px ;

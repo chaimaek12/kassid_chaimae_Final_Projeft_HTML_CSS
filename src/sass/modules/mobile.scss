@@ -116,7 +116,9 @@
     }
     #check:checked ~ .right{
         display: block;
-        background-color: black;
+        background-color: white;
+        color: black;
+
         left:0;
     }
 
@@ -124,11 +126,9 @@
 
 @media (max-width:410px){
     .linksmob a{
-        
+        color: black;
         display: flex;
         flex-direction: column;
        }
-       input{
-        display: none;
-       }
+       
 }

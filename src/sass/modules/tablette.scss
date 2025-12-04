@@ -7,17 +7,17 @@
 .about{
     display: flex;
     flex-direction: column;
-    height: 70px;
+    height: 1000px;
     padding-bottom: 350px;
     margin-bottom: 70px;
 
     .right{
         width: 700px;
         height: 5px;
-        font-size: 3px;
+        font-size: 5px;
     }
     .right h4{
-        font-size :1px
+        font-size :10px
     }
 } 
 .cards{
@@ -110,9 +110,20 @@
     }
     #check:checked ~ .right{
         display: block;
-        background-color: black;
+        background-color: white;
+        color: black;
         left:0;
     }
 }
 
+}
+@media (max-width:599px){
+    .linksmob a{
+        color: black;
+        display: flex;
+        flex-direction: column;
+       }
+       input{
+        display: none;
+       }
 }

@@ -632,34 +632,33 @@ button {
   }
   #check:checked ~ .right {
     display: block;
-    background-color: black;
+    background-color: white;
+    color: black;
     left: 0;
   }
 }
 @media (max-width: 410px) {
   .linksmob a {
+    color: black;
     display: flex;
     flex-direction: column;
-  }
-  input {
-    display: none;
   }
 }
 @media (max-width: 599px) {
   .about {
     display: flex;
     flex-direction: column;
-    height: 70px;
+    height: 1000px;
     padding-bottom: 350px;
     margin-bottom: 70px;
   }
   .about .right {
     width: 700px;
     height: 5px;
-    font-size: 3px;
+    font-size: 5px;
   }
   .about .right h4, .about .right .h4 {
-    font-size: 1px;
+    font-size: 10px;
   }
   .cards {
     display: flex;
@@ -741,8 +740,19 @@ button {
   }
   .NV #check:checked ~ .right {
     display: block;
-    background-color: black;
+    background-color: white;
+    color: black;
     left: 0;
+  }
+}
+@media (max-width: 599px) {
+  .linksmob a {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    display: none;
   }
 }
 .back-to-top {
@@ -1405,34 +1415,33 @@ button {
   }
   #check:checked ~ .right {
     display: block;
-    background-color: black;
+    background-color: white;
+    color: black;
     left: 0;
   }
 }
 @media (max-width: 410px) {
   .linksmob a {
+    color: black;
     display: flex;
     flex-direction: column;
-  }
-  input {
-    display: none;
   }
 }
 @media (max-width: 599px) {
   .about {
     display: flex;
     flex-direction: column;
-    height: 70px;
+    height: 1000px;
     padding-bottom: 350px;
     margin-bottom: 70px;
   }
   .about .right {
     width: 700px;
     height: 5px;
-    font-size: 3px;
+    font-size: 5px;
   }
   .about .right h4, .about .right .h4 {
-    font-size: 1px;
+    font-size: 10px;
   }
   .cards {
     display: flex;
@@ -1514,8 +1523,19 @@ button {
   }
   .NV #check:checked ~ .right {
     display: block;
-    background-color: black;
+    background-color: white;
+    color: black;
     left: 0;
+  }
+}
+@media (max-width: 599px) {
+  .linksmob a {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    display: none;
   }
 }
 .back-to-top {
