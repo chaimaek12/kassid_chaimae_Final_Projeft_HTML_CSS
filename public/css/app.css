@@ -447,7 +447,7 @@ button {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.avis .carousel-left, .avis .carousel-right {
+.avis .carousel-left {
   width: 10%;
 }
 .avis .carousel-left img {
@@ -503,6 +503,9 @@ button {
   flex-direction: row;
   justify-content: space-around;
 }
+.footer a {
+  color: white;
+}
 
 .finalfooter {
   background-color: black;
@@ -510,6 +513,12 @@ button {
   padding: 40px 0 20px;
   display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.finalfooter span {
+  color: orange;
 }
 
 /*!
