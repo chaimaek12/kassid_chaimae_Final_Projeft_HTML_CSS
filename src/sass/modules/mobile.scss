@@ -1,17 +1,19 @@
 @media (max-width: 410px){
-
-.herosection{
+ body{
     width: 100%;
     height: 100%;
-}
+ }
+// .herosection{
+//     width: 100%;
+//     height: 100%;
+//     .carousel-inner{
+//         width: 100%;
+//         height: 10%;
+//     }
+// }
 
 
-.avantnav{
-    display: none;
-    }
-.NV{
-    display: none;
-}
+
 
 .about{
     display: flex;
@@ -77,15 +79,44 @@
 .le-tous{
     display: flex;
     flex-direction: column;
-}
-
-.left{ 
-    width: 0px;
+    .left{ 
+    height: 100px;
     font-size: small;
 }
+}
+
+
 .footer{
     display: flex;
     flex-direction: column;
+}
+.autop{
+    width: 400px;
+    
+
+}
+.avantnav{
+    .left{
+        display: none;
+       
+    }
+}
+.NV{
+    .right{
+        
+        display: none;
+      #check{
+        display: block;
+      }
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ .right{
+        display: block;
+        background-color: black;
+        left:0;
+    }
 }
 
 }

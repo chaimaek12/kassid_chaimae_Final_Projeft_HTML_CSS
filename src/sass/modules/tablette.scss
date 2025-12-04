@@ -1,0 +1,118 @@
+@media (max-width: 599px){
+
+
+
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    padding-bottom: 350px;
+    margin-bottom: 70px;
+
+    .right{
+        width: 700px;
+        height: 5px;
+        font-size: 3px;
+    }
+    .right h4{
+        font-size :1px
+    }
+} 
+.cards{
+    display: flex;
+    flex-direction: column;
+
+  padding-top: 1500px;
+    margin-bottom: 1000px;
+
+}   
+.menu{
+    padding-top :700px;
+}
+
+  .leschoix{
+    grid-template-columns: 1fr;
+  }
+  .troisdiv{
+    display: flex;
+    flex-direction: column;
+     .left{ order: 1; }
+     .lwest{ order: 3; }
+     .right{ order: 2; }
+  }
+  .carousel-contenu{
+    display: flex;
+    flex-direction: column;
+    .carousel-right{
+        height: 10px;
+    }
+
+    
+
+    
+  }
+  .gallery{
+    align-items: unset;
+  
+    .photos{
+        width: 10px;
+        padding-left: unset;
+        padding-right: unset;
+        margin-top: unset;
+        flex: unset;
+        align-items: unset;
+        justify-content: unset;
+        img{
+            width: 130px;
+        }
+    }
+
+  }
+  
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+.le-tous{
+    display: flex;
+    flex-direction: column;
+    .left{ 
+    height: 100px;
+    font-size: small;
+}
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+ .autop{
+    width: 600px;
+ }
+.avantnav{
+    .left{
+        display: none;
+       
+    }
+}
+.NV{
+    .right{
+        display: none;
+      #check{
+        display: block;
+      }
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ .right{
+        display: block;
+        background-color: black;
+        left:0;
+    }
+}
+
+}

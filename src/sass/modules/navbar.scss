@@ -24,13 +24,19 @@
     .right{
         display: flex;
         gap: 20px;
+        
     }
     #drop{
         background-color:transparent;
         color:white;
         border: none;
     }
-
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
 }
  .autop{
 height: 10vh;
