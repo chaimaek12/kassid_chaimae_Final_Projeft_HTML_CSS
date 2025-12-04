@@ -403,8 +403,13 @@ body::-webkit-scrollbar {
 .le-tous .right {
   padding: 20px 20px 40px 40px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 40px;
+}
+.le-tous .right input {
+  height: 40px;
 }
 
 button {
