@@ -7,6 +7,11 @@
 
 body {
   background-color: white;
+  font-family: "Pacifico", "cursive";
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .avantnav {
@@ -521,6 +526,12 @@ button {
   color: orange;
 }
 
+@media (max-width: 410px) {
+  .herosection {
+    width: 100%;
+    height: 100%;
+  }
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
