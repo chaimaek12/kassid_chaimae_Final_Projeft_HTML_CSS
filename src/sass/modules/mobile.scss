@@ -5,4 +5,87 @@
     height: 100%;
 }
 
+
+.avantnav{
+    display: none;
+    }
+.NV{
+    display: none;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    padding-bottom: 350px;
+    margin-bottom: 70px;
+
+    .right{
+        width: 700px;
+        height: 5px;
+        font-size: 3px;
+    }
+    .right h4{
+        font-size :1px
+    }
+} 
+.cards{
+    display: flex;
+    flex-direction: column;
+
+  padding-top: 1500px;
+    margin-bottom: 1000px;
+
+}   
+.menu{
+    padding-top :700px;
+}
+
+  .leschoix{
+    grid-template-columns: 1fr;
+  }
+  .troisdiv{
+    display: flex;
+    flex-direction: column;
+     .left{ order: 1; }
+     .lwest{ order: 3; }
+     .right{ order: 2; }
+  }
+  .carousel-contenu{
+    display: flex;
+    flex-direction: column;
+    .carousel-right{
+        height: 10px;
+    }
+
+    
+
+    
+  }
+  .gallery{
+    margin-bottom: 1200px;
+       .photos{
+    grid-template-columns: 1fr;
+  }
+
+  }
+  
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+.le-tous{
+    display: flex;
+    flex-direction: column;
+}
+
+.left{ 
+    width: 0px;
+    font-size: small;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
 }
