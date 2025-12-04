@@ -50,3 +50,23 @@ Mobile phone
 Use mixins for reusable logic
 
 24 commits on GitHub
+# Project Title 
+DELICIOUS
+## Description
+This project is web site 
+## Installation
+1. Clone the repository: `git clone https://github.com/username/project.git`
+2. install Bootstrap
+
+
+
+
+
+
+Create Variables
+mixin and Custom Parameters 
+  
+
+
+
+screen __ > public/photos

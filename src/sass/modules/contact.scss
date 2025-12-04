@@ -15,5 +15,11 @@
       }
       .left{
         background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 40px;
+
+         
       }
 }

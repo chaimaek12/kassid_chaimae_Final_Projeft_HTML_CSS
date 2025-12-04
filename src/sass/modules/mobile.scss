@@ -101,10 +101,12 @@
        
     }
 }
-.NV{
+.NV{  display: flex;
+       
     .right{
-        
-        display: none;
+    // display: none;
+    }
+     
       #check{
         display: block;
       }
@@ -117,6 +119,16 @@
         background-color: black;
         left:0;
     }
+
 }
 
+@media (max-width:410px){
+    .linksmob a{
+        
+        display: flex;
+        flex-direction: column;
+       }
+       input{
+        display: none;
+       }
 }
